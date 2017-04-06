@@ -1,0 +1,21 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build":"electron-packager . myapp --platform=win32 --arch=all --overwrite"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-packager": "^8.5.1",
+    "electron-prebuilt": "^1.4.13",
+    "express": "^4.14.1"
+  },
+  "dependencies": {
+    "angular": "^1.6.1",
+    "ngcomponentrouter": "^2.1.0"
+  }
+}
